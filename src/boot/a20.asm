@@ -5,6 +5,6 @@
 
 enable_a20_fast:
     in   al, 0x92
-    or   al, 00000010b      ; A20 enable bit
+    or   al, 00000010b      
     out  0x92, al
     ret
